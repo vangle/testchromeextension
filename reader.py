@@ -17,6 +17,7 @@ class Reader:
 	def train_triples(self):
 		return self.triples["train"]
 
+	//video: 1234 - test video comment
 	def valid_triples(self):
 		return self.triples["valid"]
 
@@ -29,6 +30,7 @@ class Reader:
 	def num_ent(self):
 		return len(self.ent2id)
 
+	//doc: 5678 - test document comment
 	def num_rel(self):
 		return len(self.rel2id)
 
